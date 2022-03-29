@@ -34,10 +34,10 @@ public:
                 }
             }
         }
+        count--;
         if(count == 0){
             return 0;
         }
-        count--;
         unordered_set<int>st;
         for(int i=0;i<m;i++){
             if(grid[i][0]<0){
